@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - EventMaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+             <nav class="navbar">
+                <a href="index.html" class="nav-logo">📅 Evoke Events</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary nav-book-btn">Book Event</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Event Gallery</h1>
+                <p>Explore our portfolio of successful events and celebrations</p>
+            </div>
+        </section>
+        
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="corporate">Corporate</button>
+                    <button class="filter-btn" data-filter="weddings">Weddings</button>
+                    <button class="filter-btn" data-filter="exhibitions">Exhibitions</button>
+                    <button class="filter-btn" data-filter="concerts">Concerts</button>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="corporate">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop" alt="Corporate Gala">
+                    </div>
+                     <div class="gallery-item" data-category="corporate">
+                        <img src="images/2.jpg" alt="Corporate Conference">
+                    </div>
+                     <div class="gallery-item" data-category="weddings">
+                        <img src="images/5.jpg" alt="Wedding Reception">
+                    </div>
+                     <div class="gallery-item" data-category="exhibitions">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Trade Show Exhibition">
+                    </div>
+                    <div class="gallery-item" data-category="concerts">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop" alt="Live Concert">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+         <div class="container footer-container">
+            <div class="footer-col"><h3>📅 EventMaster</h3><p>Creating unforgettable experiences...</p><div class="social-icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
+            <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="events.html">Events</a></li><li><a href="about.html">About Us</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+            <div class="footer-col"><h4>Services</h4><ul><li><a href="index.html#corporate-events">Corporate Events</a></li><li><a href="index.html#wedding-celebrations">Weddings</a></li><li><a href="index.html#exhibitions-shows">Exhibitions</a></li><li><a href="index.html#concerts-entertainment">Concerts</a></li></ul></div>
+            <div class="footer-col"><h4>Contact Us</h4><ul><li><i class="fa-solid fa-map-marker-alt"></i> 123 Event Street, City, Country</li><li><i class="fa-solid fa-phone"></i> +1 234 567 8900</li><li><i class="fa-solid fa-envelope"></i> info@eventmaster.com</li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="container bottom-container"><p>&copy; 2025 EventMaster. All rights reserved.</p><div class="footer-legal"><a href="#">Terms & Conditions</a><a href="#">Refund Policy</a></div></div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

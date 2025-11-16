@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EventMaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+             <nav class="navbar">
+                <a href="index.html" class="nav-logo">📅 Evoke Events</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary nav-book-btn">Book Event</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with us to start planning your next event</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper">
+                        <h3>Send us a Message</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="john.doe@example.com" required>
+                            </div>
+                             <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" rows="6" placeholder="Tell us about your event..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Submit Request</button>
+                        </form>
+                    </div>
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3499259124!2d-73.98791992336681!3d40.75432243555985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9e4a36921%3A0x959a4103b333a275!2sEmpire%20State%20Building!5e0!3m2!1sen!2sin!4v1729016182189!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-col"><h3>📅 EventMaster</h3><p>Creating unforgettable experiences...</p><div class="social-icons"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
+            <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="events.html">Events</a></li><li><a href="about.html">About Us</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+            <div class="footer-col"><h4>Services</h4><ul><li><a href="index.html#corporate-events">Corporate Events</a></li><li><a href="index.html#wedding-celebrations">Weddings</a></li><li><a href="index.html#exhibitions-shows">Exhibitions</a></li><li><a href="index.html#concerts-entertainment">Concerts</a></li></ul></div>
+            <div class="footer-col"><h4>Contact Us</h4><ul><li><i class="fa-solid fa-map-marker-alt"></i> 123 Event Street, City, Country</li><li><i class="fa-solid fa-phone"></i> +1 234 567 8900</li><li><i class="fa-solid fa-envelope"></i> info@eventmaster.com</li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="container bottom-container"><p>&copy; 2025 EventMaster. All rights reserved.</p><div class="footer-legal"><a href="#">Terms & Conditions</a><a href="#">Refund Policy</a></div></div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
