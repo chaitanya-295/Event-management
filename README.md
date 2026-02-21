@@ -51,11 +51,16 @@ The goal of this project was to build a production-style static website that dem
 ---
 
 🛠 Tech Stack
-- Category	Technology
-- Frontend	HTML5
-- Styling	CSS3
-- Interactivity	JavaScript
-- Hosting	GitHub Pages
+
+        Category              Technology
+        
+        Frontend              HTML5
+       
+        Styling               CSS3
+       
+        Interactivity         JavaScript
+       
+        Hosting               GitHub Pages
 
 ---
 
